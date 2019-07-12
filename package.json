@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/ppconde/project-360-tourism/issues"
   },
-  "homepage": "https://github.com/ppconde/project-360-tourism#readme"
+  "homepage": "https://github.com/ppconde/project-360-tourism#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
