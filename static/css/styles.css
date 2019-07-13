@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* ******* EXERCÍCIO DESKTOP ******* */
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:700|Muli:400);
 html {
   line-height: 1.15;
   /* 1 */
@@ -216,14 +215,6 @@ template {
   display: none;
 }
 
-@font-face {
-  font-family: "iconz";
-  src: url("../fonts/iconz.eot?6to4jc");
-  src: url("../fonts/iconz.eot?6to4jc#iefix") format("embedded-opentype"), url("../fonts/iconz.ttf?6to4jc") format("truetype"), url("../fonts/iconz.woff?6to4jc") format("woff"), url("../fonts/iconz.svg?6to4jc#iconz") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-
 [class^="icz"],
 [class*=" icz"] {
   /* use !important to prevent issues with browser extensions that change fonts */
@@ -295,7 +286,119 @@ body h3,
 body h4,
 body h5,
 body h6 {
-  font-family: "Montserrat", sans serif;
+  font-family: "Century Italic", sans serif;
+}
+
+@font-face {
+  font-family: "Baskerville Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville Normal"), url("/static/fonts/BASKERVILLE/baskvl.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville Regular"), url("/static/fonts/BASKERVILLE/baskervi.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville Light-Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville Light-Italic"), url("/static/fonts/BASKERVILLE/BASKE10.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville Light"), url("/static/fonts/BASKERVILLE/BASKE9.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville LightA";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville LightA"), url("/static/fonts/BASKERVILLE/BASKRV_L.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville Bold"), url("/static/fonts/BASKERVILLE/BASKE1.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville Bold"), url("/static/fonts/BASKERVILLE/Baskerville Bold font.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville BT Roman";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville BT Roman"), url("/static/fonts/BASKERVILLE/BaskervilleBT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville BT Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville BT Italic"), url("/static/fonts/BASKERVILLE/BaskervilleItalicBT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville BT Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville BT Bold"), url("/static/fonts/BASKERVILLE/BaskervilleBoldBT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville BT Bold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville BT Bold"), url("/static/fonts/BASKERVILLE/baskerville bold bt.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Baskerville BT Bold Italic";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Baskerville BT Bold Italic"), url("/static/fonts/BASKERVILLE/BaskervilleBoldItalicBT.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Century Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Century Regular"), url("/static/fonts/CENTURY/ceaswfte.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Century Normal";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Century Normal"), url("/static/fonts/CENTURY/CENTURY.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Century Bold";
+  font-style: bold;
+  font-weight: normal;
+  src: local("Century Bold"), url("/static/fonts/CENTURY/cebswfte.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Century Italic";
+  font-style: italic;
+  font-weight: normal;
+  src: local("Century Italic"), url("/static/fonts/CENTURY/ceiswfte.ttf") format("ttf");
 }
 
 .animate {
