@@ -1,75 +1,3 @@
-[class^="icz"],
-[class*=" icz"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "#{$icomoon-font-family}" !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.iczarrow {
-  &:before {
-    content: $iczarrow;
-  }
-}
-.iczbehance {
-  &:before {
-    content: $iczbehance;
-  }
-}
-.iczdev {
-  &:before {
-    content: $iczdev;
-  }
-}
-.iczdribbble {
-  &:before {
-    content: $iczdribbble;
-  }
-}
-.iczfacebook {
-  &:before {
-    content: $iczfacebook;
-  }
-}
-.iczinstagram {
-  &:before {
-    content: $iczinstagram;
-  }
-}
-.iczmkt {
-  &:before {
-    content: $iczmkt;
-  }
-}
-.icztwitter {
-  &:before {
-    content: $icztwitter;
-  }
-}
-.iczhamburger {
-  &:before {
-    content: $iczhamburger;
-  }
-}
-.iczclose {
-  &:before {
-    content: $iczclose;
-  }
-}
-.iczdsgn {
-  &:before {
-    content: $iczdsgn;
-  }
-}
-
 body {
   font-family: $bodyfont, sans serif;
   color: $black;
@@ -85,129 +13,41 @@ body {
 }
 
 @font-face {
-  font-family: "Baskerville Normal";
+  font-family: "DINPro-Regular";
   font-style: normal;
   font-weight: normal;
-  src: local("Baskerville Normal"),
-    url("/static/fonts/BASKERVILLE/baskvl.woff") format("woff");
+  src: local("DINPro-Regular"),
+    url("/static/fonts/DIN/DINPro-Regular.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "Baskerville Regular";
+  font-family: "DINPro-Medium";
   font-style: normal;
   font-weight: normal;
-  src: local("Baskerville Regular"),
-    url("/static/fonts/BASKERVILLE/baskervi.woff") format("woff");
+  src: local("DINPro-Medium"),
+    url("/static/fonts/DIN/DINPro-Medium.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "Baskerville Light-Italic";
+  font-family: "DINPro-Light";
   font-style: normal;
   font-weight: normal;
-  src: local("Baskerville Light-Italic"),
-    url("/static/fonts/BASKERVILLE/BASKE10.woff") format("woff");
+  src: local("DINPro-Light"),
+    url("/static/fonts/DIN/DINPro-Light.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "Baskerville Light";
+  font-family: "DINPro-Bold";
   font-style: normal;
   font-weight: normal;
-  src: local("Baskerville Light"),
-    url("/static/fonts/BASKERVILLE/BASKE9.woff") format("woff");
+  src: local("DINPro-Medium"),
+    url("/static/fonts/DIN/DINPro-Bold.otf") format("opentype");
 }
 
 @font-face {
-  font-family: "Baskerville LightA";
+  font-family: "DINPro-Black";
   font-style: normal;
   font-weight: normal;
-  src: local("Baskerville LightA"),
-    url("/static/fonts/BASKERVILLE/BASKRV_L.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville Bold"),
-    url("/static/fonts/BASKERVILLE/BASKE1.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville Bold"),
-    url("/static/fonts/BASKERVILLE/Baskerville Bold font.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville BT Roman";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville BT Roman"),
-    url("/static/fonts/BASKERVILLE/BaskervilleBT.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville BT Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville BT Italic"),
-    url("/static/fonts/BASKERVILLE/BaskervilleItalicBT.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville BT Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville BT Bold"),
-    url("/static/fonts/BASKERVILLE/BaskervilleBoldBT.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville BT Bold";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville BT Bold"),
-    url("/static/fonts/BASKERVILLE/baskerville bold bt.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Baskerville BT Bold Italic";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Baskerville BT Bold Italic"),
-    url("/static/fonts/BASKERVILLE/BaskervilleBoldItalicBT.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Century Regular";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Century Regular"),
-    url("/static/fonts/CENTURY/ceaswfte.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Century Normal";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Century Normal"),
-    url("/static/fonts/CENTURY/CENTURY.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Century Bold";
-  font-style: bold;
-  font-weight: normal;
-  src: local("Century Bold"),
-    url("/static/fonts/CENTURY/cebswfte.ttf") format("ttf");
-}
-
-@font-face {
-  font-family: "Century Italic";
-  font-style: italic;
-  font-weight: normal;
-  src: local("Century Italic"),
-    url("/static/fonts/CENTURY/ceiswfte.ttf") format("ttf");
+  src: local("DINPro-Medium"),
+    url("/static/fonts/DIN/DINPro-Black.otf") format("opentype");
 }
