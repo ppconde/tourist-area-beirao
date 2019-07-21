@@ -1,17 +1,23 @@
-$titlesfont: "DINPro-Regular";
+$titlesfont: "DINPro-Bold";
 $titlesfontweights: "700";
-$bodyfont: "Muli";
+$bodyfont: "DINPro-Regular";
 $bodyfontweights: "400";
 
 $primary: #fcd12b;
 $secondary: #00bec5;
 $graydark: #777;
-$gray: #ccc;
+$gray: #838383;
 $graylight: #f3f3f3;
+$lightgreen: #5fe99d;
 $white: #fff;
 $black: #000;
 
 $animationtime: 0.4s;
+
+$h-button-width: 85px;
+
+$ratingHeight: 20px;
+$rating: 100%;
 
 $gridcolumns: (
   "mobile": 4,
@@ -21,14 +27,19 @@ $gridcolumns: (
 $gridgutter: (
   "mobile": 10px,
   "tablet": 30px,
-  "desktop": 30px
+  "desktop": 18px
 );
-//mobile gridwidth has a max-width query associated to it
-//the remaining have a min-width query
+
 $gridwidth: (
   "mobile": 375px,
   "tablet": 768px,
-  "desktop": 1200px
+  "desktop": 1188px
+);
+
+$gridmargin: (
+  "mobile": 20px,
+  "tablet": 40px,
+  "desktop": 80px
 );
 
 $logoFontSize: (

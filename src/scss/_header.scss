@@ -1,4 +1,46 @@
-h1 {
-  text-align: center;
-  color: black;
+header {
+  h1 {
+    color: black;
+    font-size: 50px;
+    margin-top: 70px;
+  }
+
+  .wrapper {
+    margin-right: 0px;
+    .more-buttons {
+      margin-top: 50px;
+      margin-left: 45px;
+      .more-button {
+        border-style: none;
+        background-color: $white;
+
+        height: 60px;
+        width: calc((#{$h-button-width}) / 2);
+        border: 2px solid $black;
+        box-shadow: none;
+
+        &-left {
+          border-radius: 5px 0px 0px 5px;
+          margin-right: -3px;
+        }
+
+        &-right {
+          border-radius: 0px 5px 5px 0px;
+          margin-left: -3px;
+        }
+
+        &-arrow {
+          font-size: 12px;
+          text-align: center;
+        }
+      }
+    }
+
+    &-text {
+      margin-top: 8px;
+      width: 80px;
+      font-size: 12px;
+      text-align: right;
+    }
+  }
 }
