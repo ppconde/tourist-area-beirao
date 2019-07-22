@@ -65,3 +65,26 @@
     }
   }
 }
+
+@each $screenName, $screenSize in $gridcolumns {
+  @include dynamicMQuery($gridwidth, $screenName) {
+    .visible-#{$screenName} {
+      visibility: show;
+    }
+
+    .hidden-#{$screenName} {
+      visibility: hidden;
+    }
+  }
+}
+
+@each $screenName, $screenSize in $gridcolumns {
+  @include dynamicMQuery($gridwidth, $screenName) {
+    .vertical-align-#{$screenName} {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

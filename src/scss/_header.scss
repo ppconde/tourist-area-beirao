@@ -1,22 +1,21 @@
 header {
   h1 {
     color: black;
-    font-size: 50px;
+    font-size: 60px;
     margin-top: 70px;
   }
 
   .wrapper {
-    margin-right: 0px;
     .more-buttons {
       margin-top: 50px;
-      margin-left: 45px;
+
       .more-button {
         border-style: none;
         background-color: $white;
-
-        height: 60px;
+        height: 59px;
         width: calc((#{$h-button-width}) / 2);
         border: 2px solid $black;
+        border-radius: 6px;
         box-shadow: none;
 
         &-left {
@@ -30,7 +29,7 @@ header {
         }
 
         &-arrow {
-          font-size: 12px;
+          font-size: 14px;
           text-align: center;
         }
       }
@@ -39,8 +38,18 @@ header {
     &-text {
       margin-top: 8px;
       width: 80px;
-      font-size: 12px;
+      font-size: 14px;
       text-align: right;
     }
+  }
+  .logo-margin-top {
+    margin-top: 50px;
+  }
+  .logo-container {
+    height: 80px;
+  }
+  .logo-main-colors {
+    width: auto;
+    height: 100%;
   }
 }

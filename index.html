@@ -4,87 +4,211 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Licor Beirão, o teu anfitreão</title>
+    <title>Hosted by Licor Beirão</title>
     <link rel="stylesheet" href="/static/css/styles.css" />
   </head>
   <body>
-    <!-- Header - Main page -->
-    <header class="row">
-      <div class="offset-mobile">
-        <h1 class="header-h1 col-mobile-2">João's favourite places</h1>
-      </div>
-      <div class="row">
-        <div class="col-mobile-1"></div>
-        <div class="wrapper row col-mobile-2">
-          <div class="more-buttons col-mobile-4">
-            <button class="more-button more-button-left">
-              <span class="more-button-arrow">&#9664;</span>
-            </button>
-            <button class="more-button more-button-right">
-              <span class="more-button-arrow">&#9654;</span>
-            </button>
-          </div>
-
-          <p class="wrapper-text row">Tap to see more photos</p>
+    <div class="row">
+      <!-- Header - Main page -->
+      <header class="col-desktop-5">
+        <div class="offset-mobile-1 offset-desktop-1">
+          <h1 class="header-h1 col-mobile-2 col-desktop-16">
+            These are João's favourite places
+          </h1>
         </div>
-      </div>
-    </header>
-    <main>
-      <!-- Main content - Logo -->
-      <div class="row main-margin-top">
-        <div class="logo-container offset-mobile col-mobile-1">
-          <img
-            class="logo-main-colors"
-            src="/static/imgs/logo/logo-principal-cores.png"
-          />
-          <div class="col-mobile-3"></div>
-        </div>
-      </div>
-      <!-- Main content - Places to visit -->
-      <article class="article-margin">
         <div class="row">
-          <h2 class="offset-mobile">Eat</h2>
-          <img
-            class="offset-mobile row margin-top img-place"
-            src="/static/imgs/places/santiago.jpg"
-          />
-          <h2 class="row margin-top offset-mobile">
-            Café Santiago da Praça
-          </h2>
-          <p class="row margin-top offset-mobile">
-            Praça dos Poveiros 82, 4000-041 Porto.
-          </p>
+          <div class="col-mobile-2 col-desktop-10"></div>
+          <div
+            class="wrapper col-mobile-2 col-desktop-4 visible-mobile hidden-desktop"
+          >
+            <div class="more-buttons">
+              <button class="more-button more-button-left">
+                <span class="more-button-arrow">&#9664;</span>
+              </button>
+              <button class="more-button more-button-right">
+                <span class="more-button-arrow">&#9654;</span>
+              </button>
+            </div>
+            <p class="wrapper-text">Tap to see more photos</p>
+          </div>
         </div>
-        <div class="row margin-top vertical-align">
-          <!-- Star rating -->
-          <div class="rating-container offset-mobile">
-            <div class="rating-stars">
-              <span class="rating"></span>
+        <div class="row logo-margin-top">
+          <div
+            class="logo-container offset-mobile-1 offset-desktop-1 col-mobile-1"
+          >
+            <img
+              class="logo-main-colors"
+              src="/static/imgs/logo/logo-principal-cores.png"
+            />
+            <div class="col-mobile-3"></div>
+          </div>
+        </div>
+      </header>
+      <!-- Main content - Logo -->
+      <div class="col-desktop-2"></div>
+      <main class="col-desktop-8">
+        <!-- Main content - Places to visit -->
+        <div class="row">
+          <h2 class="offset-mobile-1">Eat</h2>
+        </div>
+        <article class="col-desktop-8">
+          <!-- Place card -->
+          <div class="row">
+            <div class="row ">
+              <div class="col-desktop-5">
+                <img
+                  class="img-place offset-mobile-1 "
+                  src="/static/imgs/places/santiago.jpg"
+                />
+              </div>
+              <div class="col-desktop-5 vertical-align-desktop">
+                <h2
+                  class="article-place row margin-top offset-mobile-1 col-mobile-3"
+                >
+                  Café Santiago da Praça
+                </h2>
+                <p
+                  class="article-street row margin-top offset-mobile-1 col-mobile-3"
+                >
+                  Praça dos Poveiros 82, 4000-041 Porto.
+                </p>
+
+                <div class="row margin-top left-align">
+                  <!-- Star rating -->
+                  <div
+                    class="rating-container offset-mobile-1 offset-desktop-1"
+                  >
+                    <div class="rating-stars">
+                      <span class="rating"></span>
+                    </div>
+                  </div>
+
+                  <svg width="0" height="0">
+                    <defs>
+                      <clipPath id="svgStars" clipPathUnits="objectBoundingBox">
+                        <polygon
+                          points=".80 .073 .738 .118 .762 .19 .70 .145 .638 .19 .662 .118 .60 .073 .538 .118 .562 .19 .50 .145 .438 .19 .462 .118 .40 .073 .338 .118 .362 .19 .30 .145 .238 .19 .262 .118 .20 .073 .138 .118 .162 .19 .10 .145 .038 .19 .062 .118 0 .073 .076 .073 .10 0 .124 .073 .276 .073 .30 0 .324 .073 .476 .073 .50 0 .524 .073 .676 .073 .70 0 .724 .073 .876 .073 .90 0 .924 .073 1 .073 .938 .118 .962 .19 .90 .145 .838 .19 .862 .118 "
+                        />
+                      </clipPath>
+                    </defs>
+                  </svg>
+                  <!-- Price level -->
+                  <p class="price-level">&#x20AC;&#x20AC;</p>
+                  <button class="go-button">Go</button>
+                </div>
+                <div class="row margin-top left-align">
+                  <span class="dot offset-mobile-1 offset-desktop-1"></span>
+                  <p class="opening-time">
+                    Opened - Closes at 6pm
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
-
-          <svg width="0" height="0">
-            <defs>
-              <clipPath id="svgStars" clipPathUnits="objectBoundingBox">
-                <polygon
-                  points=".80 .073 .738 .118 .762 .19 .70 .145 .638 .19 .662 .118 .60 .073 .538 .118 .562 .19 .50 .145 .438 .19 .462 .118 .40 .073 .338 .118 .362 .19 .30 .145 .238 .19 .262 .118 .20 .073 .138 .118 .162 .19 .10 .145 .038 .19 .062 .118 0 .073 .076 .073 .10 0 .124 .073 .276 .073 .30 0 .324 .073 .476 .073 .50 0 .524 .073 .676 .073 .70 0 .724 .073 .876 .073 .90 0 .924 .073 1 .073 .938 .118 .962 .19 .90 .145 .838 .19 .862 .118 "
-                />
-              </clipPath>
-            </defs>
-          </svg>
           <!-- -->
-          <!-- Price level -->
-          <p class="price-level">&#x20AC;&#x20AC;</p>
-          <button class="go-button">Go</button>
-        </div>
-        <div class="row margin-top vertical-align">
-          <span class="dot offset-mobile"></span>
-          <p class="opening-time">
-            Opened - Closes at 6pm
-          </p>
-        </div>
-      </article>
-    </main>
+
+          <!-- Place card -->
+          <div class="row">
+            <div class="row ">
+              <div class="row ">
+                <img
+                  class="img-place offset-mobile-1"
+                  src="/static/imgs/places/santiago.jpg"
+                />
+              </div>
+              <h2
+                class="article-place row margin-top offset-mobile-1 col-mobile-3"
+              >
+                Café Santiago da Praça
+              </h2>
+              <p
+                class="article-street row margin-top offset-mobile-1 col-mobile-3"
+              >
+                Praça dos Poveiros 82, 4000-041 Porto.
+              </p>
+            </div>
+            <div class="row margin-top left-align">
+              <!-- Star rating -->
+              <div class="rating-container offset-mobile-1">
+                <div class="rating-stars">
+                  <span class="rating"></span>
+                </div>
+              </div>
+
+              <svg width="0" height="0">
+                <defs>
+                  <clipPath id="svgStars" clipPathUnits="objectBoundingBox">
+                    <polygon
+                      points=".80 .073 .738 .118 .762 .19 .70 .145 .638 .19 .662 .118 .60 .073 .538 .118 .562 .19 .50 .145 .438 .19 .462 .118 .40 .073 .338 .118 .362 .19 .30 .145 .238 .19 .262 .118 .20 .073 .138 .118 .162 .19 .10 .145 .038 .19 .062 .118 0 .073 .076 .073 .10 0 .124 .073 .276 .073 .30 0 .324 .073 .476 .073 .50 0 .524 .073 .676 .073 .70 0 .724 .073 .876 .073 .90 0 .924 .073 1 .073 .938 .118 .962 .19 .90 .145 .838 .19 .862 .118 "
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- Price level -->
+              <p class="price-level">&#x20AC;&#x20AC;</p>
+              <button class="go-button">Go</button>
+            </div>
+            <div class="row margin-top left-align">
+              <span class="dot offset-mobile-1"></span>
+              <p class="opening-time">
+                Opened - Closes at 6pm
+              </p>
+            </div>
+          </div>
+          <!-- -->
+
+          <!-- Place card -->
+          <div class="row">
+            <div class="row ">
+              <div class="row ">
+                <img
+                  class="img-place offset-mobile-1"
+                  src="/static/imgs/places/santiago.jpg"
+                />
+              </div>
+              <h2
+                class="article-place row margin-top offset-mobile-1 col-mobile-3"
+              >
+                Café Santiago da Praça
+              </h2>
+              <p
+                class="article-street row margin-top offset-mobile-1 col-mobile-3"
+              >
+                Praça dos Poveiros 82, 4000-041 Porto.
+              </p>
+            </div>
+            <div class="row margin-top left-align">
+              <!-- Star rating -->
+              <div class="rating-container offset-mobile-1">
+                <div class="rating-stars">
+                  <span class="rating"></span>
+                </div>
+              </div>
+
+              <svg width="0" height="0">
+                <defs>
+                  <clipPath id="svgStars" clipPathUnits="objectBoundingBox">
+                    <polygon
+                      points=".80 .073 .738 .118 .762 .19 .70 .145 .638 .19 .662 .118 .60 .073 .538 .118 .562 .19 .50 .145 .438 .19 .462 .118 .40 .073 .338 .118 .362 .19 .30 .145 .238 .19 .262 .118 .20 .073 .138 .118 .162 .19 .10 .145 .038 .19 .062 .118 0 .073 .076 .073 .10 0 .124 .073 .276 .073 .30 0 .324 .073 .476 .073 .50 0 .524 .073 .676 .073 .70 0 .724 .073 .876 .073 .90 0 .924 .073 1 .073 .938 .118 .962 .19 .90 .145 .838 .19 .862 .118 "
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+              <!-- Price level -->
+              <p class="price-level">&#x20AC;&#x20AC;</p>
+              <button class="go-button">Go</button>
+            </div>
+            <div class="row margin-top left-align">
+              <span class="dot offset-mobile-1"></span>
+              <p class="opening-time">
+                Opened - Closes at 6pm
+              </p>
+            </div>
+          </div>
+          <!-- -->
+        </article>
+      </main>
+    </div>
   </body>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <script src="/static/js/app.js"></script>
